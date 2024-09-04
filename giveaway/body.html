@@ -1,0 +1,542 @@
+<!-- full page -->
+<style>
+
+    /* hide ribbon */
+    .deal-ribbon-wrapper {
+       display: none !important;
+     }
+   
+     .dod-ribbon-container {
+       min-height: 50px;
+       display: none !important;
+   }
+   
+   /* hide Norton */
+   #_GUARANTEE_SealSpan {
+     display: none !important;
+   }
+   
+   /* chat and FAQ Buttons */
+   .chat-fixed-tab {
+     display: none !important;
+   }
+   
+   .faq-fixed-tab {
+     display: none !important;
+   }
+   
+   /* hide 20% off */
+   #ltkPopupButtonTriggerContainer.ltkpopup-pb-close-btn {
+     display: none !important;
+   }
+   
+   
+       .shopping-layout-breadcrumb { 
+           display: none; 
+       }
+   
+       .cms-landing-page-container {
+           max-width: 100% !important; 
+           padding: 0 15px;
+       }
+   </style>
+   
+   <!-- hero Banner Section -->
+   <style>
+       .hero-banner {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 80vh;
+           background-size: cover !important;
+       }
+           
+       .hero-content-wrapper {
+           display: flex;
+           width: 1300px;
+           max-width: 100%;
+           padding: 0 0px;
+       }
+           
+       .hero-column {
+           flex-basis: 50%;
+           padding: 1rem;
+           box-sizing: border-box;
+           justify-content: center;
+           /* align-items: center; */
+           flex-direction: column;
+           display: flex;
+       }
+               
+       .heroTitle {
+           font-size: 34px;
+           font-weight: bold;
+           color: black;
+           max-width: 620px;
+           width: 100%;
+       }
+           
+       .heroSubText {
+           color: black;
+           padding-top: 16px;
+           width: 100%;
+       }
+           
+       .redButtonOne {
+           background-color: #AA0000 !important;
+           color: white;
+           padding: 12px 20px;
+           width: 100%;
+           font-size: 18px;
+           font-weight: bold;
+           text-align: center;
+           display: block;
+           max-width: 350px;
+       }
+           
+       .redButtonOne:hover {
+           color: white;
+       }
+   
+       .heroTinyText {
+           color: black;
+           margin: 2% 0% 0% 0%;
+       }
+   
+       .hero-column.right {
+           display: flex;
+           justify-content: center;
+           width: 620px;
+           max-width: 45%;
+           margin: 0 auto;
+       }
+   
+       @media only screen and (max-width: 768px) {
+           .hero-banner {
+           height: 100%;
+           }
+           
+           .hero-content-wrapper {
+           flex-direction: column; /* Stacks the columns vertically */
+           }
+           
+           .hero-column {
+               text-align: center;
+           }
+   
+           .hero-column.left {
+               padding-top: 8%;
+           }
+   
+           .hero-column.right {
+               margin: 0 auto;
+               max-width: 100%;
+               padding-top: 0%;
+           }
+           
+           .heroTitle {
+               font-size: 24px;
+               font-weight: bold;
+               text-align: center;
+               margin: 0 auto;
+           }
+           
+           .heroSubtext {
+               color: white;
+               text-align: center;
+               margin: 4% 4% 4% 4%;
+               width: auto;
+           }
+           
+           .redButtonOne {
+               background-color: #AA0000 !important;
+               color: white;
+               padding: 8px 0px;
+               width: 100% !important;
+               display: inline-block;
+               font-size: 18px;
+               font-weight: bold;
+               text-align: center;
+               vertical-align: middle;
+               touch-action: manipulation;
+               cursor: pointer;
+               margin: 0 auto;
+           }
+   
+       }
+   </style>
+   
+   <!-- intro paragrpah -->
+   <style>
+       .body-content-wrapper {
+           display: flex;
+           width: 1200px;
+           max-width: 100%;
+           padding: 0 16px;
+       }
+           
+       .body-column {
+           flex-basis: 70%;
+           padding: 1rem;
+           box-sizing: border-box;
+           text-align: center;
+           margin: 0 auto;
+       }
+           
+       .bodyTitle {
+           font-size: 24px;
+           font-weight: bold;
+           color: white;
+           /* max-width: 620px; */
+           width: 100%;
+       }
+   
+       .bodySubText {
+           color: white;
+           padding-top: 0px;
+           /* padding-top: 32px; */
+           font-size: 18px;
+           margin-bottom: 0px;
+       }
+   
+       .body-banner-plain {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100%;
+           background-size: cover !important;
+           background-color: white;
+           margin: 56px 0px 16px 0px;
+       }
+   
+       @media only screen and (max-width: 768px) {
+   
+           .body-content-wrapper {
+               flex-direction: column; /* Stacks the columns vertically */
+           }
+           
+           .body-column {
+               text-align: center;
+           }
+           
+           .bodyTitle {
+               font-size: 24px;
+               font-weight: bold;
+               color: white;
+               text-align: center;
+           }
+           
+           .bodySubText {
+               padding-top: 16px;
+           }
+   
+           .body-banner-plain {
+               height: 100%;
+               margin: 24px 0px 0px 0px;
+           }
+   
+       }
+   </style>
+   
+   <!-- features section -->
+   <style>
+   .two-in-row {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: white;
+       height: 100%;
+       background-size: cover !important;
+       background-color: white;
+       margin: 56px 0px 16px 0px;
+   }
+       
+   .two-in-row-content-wrapper {
+       display: flex;
+       width: 1200px;
+       max-width: 100%;
+       padding: 0 16px;
+   }
+   
+   .column-Six {
+       flex-basis: 50%;
+       padding: 1rem;
+       box-sizing: border-box;
+       align-items: center;
+       display: flex;
+   }
+       
+   .columnSixTitle {
+       font-size: 24px;
+       font-weight: bold;
+       color: Black;
+       max-width: 620px;
+       width: 100%;
+   }
+   
+   .columnSixText {
+       color: Black;
+       padding-top: 16px;
+       /* max-width: 530px; */
+       width: 100%;
+   }
+   
+   .column-Six.right {
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   
+   @media only screen and (max-width: 768px) {
+       .two-in-row {
+           height: 100%;
+       }
+       
+        .two-in-row-content-wrapper {
+        flex-direction: column; /* Stacks the columns vertically */
+        }
+       
+        .column-Six {
+           text-align: center;
+           margin: 0 auto;
+        }
+       
+        .columnSixTitle {
+           font-size: 24px;
+           font-weight: bold;
+           text-align: center;
+       }
+   }
+   </style>
+   
+   <!-- gleam section -->
+   <style>
+       .redButtonTwo {
+           background-color: white !important;
+           color: black;
+           border: 4px solid #AA0000;
+           padding: 8px 0px;
+           width: 30% !important;
+           display: inline-block;
+           font-size: 18px;
+           font-weight: bold;
+           text-align: center;
+           vertical-align: middle;
+           touch-action: manipulation;
+           cursor: pointer;
+           margin-top: 24px;
+       }
+   
+       .redButtonTwo:hover {
+           background-color: #AA0000 !important;
+           color: white;
+       }
+   
+       .fullWidthBG {
+           background-color: #EBEBEB;
+           margin-top: 80px;
+       }
+   
+       .bodyTitleCenter {
+           text-align: center;
+           padding: 80px 0px 40px 0px;
+           font-size: 24px;
+       }
+   
+       @media only screen and (max-width: 768px) {
+           .redButtonTwo {
+               width: 100% !important;
+               padding: 8px 8px;
+           }
+       }
+   </style>
+   
+   
+   <div class="hero-banner">
+       <div class="hero-content-wrapper">
+           <div class="hero-column left">
+               <h1 class="heroTitle">Seekins Precision HAVAK PH2 Rifle Package
+                </h1>
+               <p class="heroSubText"><i>Valued at over $2,700!</i></p>
+               <a href="https://www.primaryarms.com/giveaway#enter" id="a" class="redButtonOne" role="button">ENTER TO WIN</a>
+               <p class="heroTinyText"><i>Hurry, giveaway ends September 30th!</i></p>
+           </div>
+           <div class="hero-column right">
+               <img src="https://image.primaryarms.com/images/primary-arms/promos/2024/09-september/GAW/Sept%20GAW%20Web%20(1).jpg?updatedAt=1725476125476">
+           </div>
+       </div>
+   </div>
+   
+   
+   <!-- intro -->
+   <div class="body-banner-plain">
+       <div class="body-content-wrapper">
+           <div class="body-column left">
+               <p class="bodySubText" style="color: black;">This September, Primary Arms is offering you the chance to win an exclusive Seekins Precision HAVAK PH2 Rifle Package! Valued at $2,700, this rifle is equipped with a brand new SLx® 5-25x56 FFP Rifle Scope, and more! As always, you can enter this month’s giveaway for free. Simply click the button above and follow the instructions for your chance to win! 
+               </p>
+           </div>
+       </div>
+   </div>
+   
+   
+   <!-- 3 features -->
+   <div class="two-in-row">
+       <div class="two-in-row-content-wrapper">
+           <div class="column-Six left">
+               <img src="https://image.primaryarms.com/images/primary-arms/promos/2024/09-september/GAW/Sept%20GAW%20Web%20(2).jpg?updatedAt=1725476126174">
+           </div>
+           <div class="column-Six right">
+               <h2 class="columnSixTitle">Seekins Precision HAVAK PH2 Rifle Package</h2>
+               <p class="columnSixText">
+                At the core of this month’s giveaway is the Seekins Precision HAVAK PH2 chambered in 6.5 Creedmoor, a premium bolt-action rifle engineered for accuracy and reliability. Perfect for long-range shooting disciplines, it consistently delivers repeatable results with every shot.  
+                <br><br>
+                This rifle features a 24-inch barreled action that’s hand-bedded into the stock. Complimenting it is a lightweight carbon composite stock with their Mountain Shadow camo pattern, a 20 MOA upper picatinny rail for mounting optics, as well as an adjustable 2.5- to 5-pound trigger. 
+                <br>
+                <br>
+                Each HAVAK rifle is professionally built and fine-tuned for high-precision performance out of the box, making this month’s HAVAK PH2 a solid choice for anything from long-range competitions to big game hunting. 
+
+             </p>
+           </div>
+   
+       </div>
+   </div>
+   <div class="two-in-row">
+       <div class="two-in-row-content-wrapper">
+           <div class="column-Six left">
+               <img src="https://image.primaryarms.com/images/primary-arms/promos/2024/09-september/GAW/Sept%20GAW%20Web%20(4).jpg?updatedAt=1725476126067">
+           </div>
+           <div class="column-Six right">
+               <h2 class="columnSixTitle">SLx® 5-25x56 FFP Rifle Scope with ACSS® Athena BPR MIL Reticle </h2>
+               <p class="columnSixText">
+                The Primary Arms SLx® 5-25x56 FFP Rifle Scope with their ACSS® Athena BPR MIL Reticle is a highly adaptable long-range optic. Engineered for extreme precision, this optic excels at spotting, tracking, and engaging targets to 1,000 yards and beyond.
+                   <br><br>
+                   This optic has exceptionally clear glass, a versatile magnification range, interchangeable windage turrets for both capped and tactical-style use, and it also features a smooth magnification ring with an integrated throw lever. As for the reticle, the ACSS® Athena BPR MIL Reticle is one of the most precise systems available. It’s capable of supporting accuracy at distances beyond a kilometer, while its ranging bracket and MIL grid make it easy to adjust holds for mid-range targets too.
+                   <br> <br>
+                   Additionally, this optic can be fully illuminated and has built-in AutoLive motion-sensing technology for an extended battery life. 
+               </p>
+           </div>
+   
+       </div>
+   </div>
+
+
+   <div class="two-in-row">
+    <div class="two-in-row-content-wrapper">
+        <div class="column-Six left">
+            <img src="https://image.primaryarms.com/images/primary-arms/promos/2024/09-september/GAW/Sept%20GAW%20Web%20(3).jpg?updatedAt=1725476126325">
+        </div>
+        <div class="column-Six right">
+            <h2 class="columnSixTitle">Additional Upgrades & Accessories</h2>
+            <p class="columnSixText">
+                •	Seekins Precision High Height 34mm 4-Cap Scope Rings
+                  <br>
+                  •	Magpul Sling Stud QD Bipod
+                 <br>
+                 •	Magpul Rifleman Loop Sling 
+                   <br>
+                   •	2x Magpul QD Sling Swivel
+                              <br>
+                              •	Magpul MS1 Sling - Black       
+                           <br>
+                           •	OD Green Savior Equipment American Classic Double Rifle Case
+                   
+            </p>
+        </div>
+
+    </div>
+</div>
+
+   
+   <!-- <div class="two-in-row">
+       <div class="two-in-row-content-wrapper">
+           <div class="column-Six left">
+               <img src="https://image.primaryarms.com/images/primary-arms/promos/2024/06-june/june%202024%20gaw%20web%20(2).jpg?updatedAt=1717420428231">
+           </div>
+           <div class="column-Six right">
+               <h2 class="columnSixTitle">Additional Upgrades & Accessories</h2>
+               <p class="columnSixText">
+                •	Emissary Development Mini Handbrake 
+                <br>
+                •	Edgar Sherman Design ESD Sling
+                <br>
+                •	Ferro Concepts D Loop Push Button QD Swivel             
+                   <br>
+                •	5x Lancer Systems 30-Round Magazines             
+              </p>
+           </div>
+   
+       </div>
+   </div> -->
+   
+   
+   <!-- bonuses & parts link -->
+   <div class="body-banner-plain">
+       <div class="body-content-wrapper">
+           <div class="body-column">
+               <!-- <h2 class="bodyTitle" style="color: black;">Also includes bonus apparel from Springfield Armory!
+               </h2> -->
+               <div class="col-md-12">
+                   <a href="https://www.primaryarms.com/marketing-categories/monthly-giveaway" target="_blank" class="redButtonTwo" role="button">View Full Parts List</a>
+                   </div>
+           </div>
+       </div>
+   </div>
+   
+   
+   <!-- gleam section -->
+   <div class="row fullWidthBG">
+       <div class="col-md-12">
+       <h2 class="bodyTitleCenter">Submit Your Entry Now!</h2>
+   
+       
+           <!-- link from top -->
+           <a id="enter"></a>
+       
+               <!-- gleam widget -->
+               <a class="e-widget no-button generic-loader" href="https://gleam.io/X69Dt/seekins-precision-havak-ph2-rifle-package" rel="nofollow">Seekins Precision HAVAK PH2 Rifle Package</a>
+               <script type="text/javascript" src="https://widget.gleamjs.io/e.js" async="true"></script>
+               </div>
+   </div>
+   
+   
+   <!-- T&C -->
+   <div class="body-banner-plain">
+       <div class="body-content-wrapper">
+           <div class="body-column left">
+            Terms and conditions apply. The giveaway ends September 30th, 2024, at 11:59 pm CST. At the end of the giveaway, we will contact the winner via email by October 4th. The winner MUST be legally able to possess a firearm in compliance with federal, state, and local laws; and pass a federal background check. The winner is responsible for all taxes. Exclusions apply, and no purchase is necessary. A full list of terms and conditions is available here. 
+               <br>
+               <br>
+           </div>
+       </div>
+   </div>
+   
+       
+   <!-- scroll speed -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script>
+   $(document).ready(function(){
+       // Add smooth scrolling to all links
+       $("a").on('click', function(event) {
+   
+       // Make sure this.hash has a value before overriding default behavior
+       if (this.hash !== "") {
+           // Prevent default anchor click behavior
+           event.preventDefault();
+   
+           // Store hash
+           var hash = this.hash;
+   
+           // Using jQuery's animate() method to add smooth page scroll
+           // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+           $('html, body').animate({
+           scrollTop: $(hash).offset().top
+           }, 1000, function(){
+       
+           // Add hash (#) to URL when done scrolling (default click behavior)
+           window.location.hash = hash;
+           });
+       } // End if
+       });
+   });
+   </script>
